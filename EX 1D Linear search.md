@@ -1,5 +1,5 @@
 # EX 1D Linear search
-## DATE: 25-02-2025
+## DATE: 08-03-2025
 ## AIM:
 To write a Python program that defines a search function to find a value in a list of integers, using the list and search value as parameters.
 
