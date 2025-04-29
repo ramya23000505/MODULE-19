@@ -1,42 +1,26 @@
 # EX 1B Merge Sort
 ## DATE: 22-03-2025
 ## AIM:
-To write a python program to sort the first half of the list using merge sort.
+To write a Python program that implements the Merge Sort algorithm using recursion to sort an array of integers.
 
 ## Algorithm
-1. Start
+1. Start the program.
 
-2. Read the number of elements n.
+2. Read the number of elements and store them in an array.
 
-3. Read the array of n integers into inp_arr.
+3. Check if the array has more than one element — if so, divide it into two halves.
 
-4. Call the function merge_sort(inp_arr) to sort the array.
+4. Recursively apply merge sort to both halves of the array.
 
-5. Inside merge_sort(arr):
+5. Merge the two sorted halves by comparing elements and placing them in order.
 
-Step 1: If the length of arr is more than 1:
+6. Replace the original array with the merged (sorted) version.
 
-Step 2: Find the middle index of the array.
+7. Display the sorted array 
 
-Step 3: Split the array into two halves: left_arr and right_arr.
+8. End the program.
 
-Step 4: Recursively call merge_sort(left_arr) and merge_sort(right_arr).
 
-Step 5: Initialize pointers p, q, and r to 0.
-
-Step 6: While both left_arr and right_arr have unprocessed elements:
-
-Compare left_arr[p] and right_arr[q]
-
-Place the smaller value into arr[r] and move the pointers accordingly.
-
-Step 7: Copy any remaining elements from left_arr (if any).
-
-Step 8: Copy any remaining elements from right_arr (if any).
-
-6. After the recursive sorting is complete, print the sorted array.
-
-7. End 
 
 ## Program:
 ```
@@ -103,4 +87,4 @@ print(inp_arr)
 
 
 ## Result:
-The program successfully sorts the first half of the given array using merge sort. where only the first half is sorted, and the second half remains unchanged.
+The program successfully sorts an array of integers using merge sort with recursion. When the user inputs a list of numbers, the program prints both the original (unsorted) and the sorted array.
