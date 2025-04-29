@@ -1,5 +1,5 @@
 # EX 1B Merge Sort
-## DATE: 22-03-2025
+## DATE: 28-02-2025
 ## AIM:
 To write a Python program that implements the Merge Sort algorithm using recursion to sort an array of integers.
 
